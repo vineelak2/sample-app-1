@@ -1,2 +1,2 @@
-FROM tomcat:8.0.20-jre8
+FROM devopsmptech/tomcat8:8.0.0
 COPY target/*.war /usr/local/tomcat/webapps/sampleapp.war
